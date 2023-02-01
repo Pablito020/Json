@@ -5,10 +5,8 @@ const buttonClear = document.getElementById('clearPokemon');
 const appNode = document.getElementById('app');
 
 buttonPokemon.addEventListener('click' , insertPokemon);
-buttonPokemon.addEventListener('touchstart' , insertPokemon); //* Para Celulares
 
 buttonClear.addEventListener('click' , deletePokemons);
-buttonClear.addEventListener('touchstart' , deletePokemons); //* Para celulares
 
 async function insertPokemon() {
   try {
